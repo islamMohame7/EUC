@@ -154,3 +154,107 @@ padding-left: 2%;
 width: 100%;
 margin-bottom: 4%;
 }
+.footer{
+    position: absolute;
+    background-color: rgb(24, 26,80);
+    opacity: 95%;
+    width: 100%;
+    height: 20%;
+    bottom: -46%;
+    
+}
+.linked{
+    height: 35px;
+    color: seashell;
+    width: 37px;
+    position: absolute;
+    padding: 9px;
+    margin: 40px;
+    border: rgba(18, 18,39, 0.9);
+    border: solid;
+    border-radius: 50%;
+    cursor: pointer;
+    top: 39%;
+    left: 82%;}
+
+.twitter{
+    color: seashell;
+    height: 35px;
+    width: 37px;
+    position: absolute;
+    padding: 9px;
+    margin: 40px;
+    border: rgba(18, 18,39, 0.9);
+    border: solid;
+    border-radius: 50%;
+    cursor: pointer;
+    top: -4%;
+    left: 88%;
+}
+#hotline{
+    position: absolute;
+    left: 48%;
+    color: seashell;
+    top: 24%
+}
+
+
+.youtube{
+    color: seashell;
+    height: 35px;
+    width: 37px;
+    position: absolute;
+    padding: 9px;
+    margin: 40px;
+    border: rgba(18, 18,39, 0.9);
+    border: solid;
+    border-radius: 50%;
+    cursor: pointer;
+    top: -4%;
+    left: 82%;
+}
+.address{
+    color: seashell;
+}
+.facebook{
+    color: seashell;
+    height: 35px;
+    width: 37px;
+    position: absolute;
+    padding: 9px;
+    margin: 40px;
+    border: rgba(18, 18,39, 0.9);
+    border: solid;
+    border-radius: 50%;
+    cursor: pointer;
+    top: 38%;
+    left: 88%;
+}
+#egypt{
+    color:seashell ;
+    position: relative;
+    margin: 2%;
+    top:17%;
+    left: 10%;
+}
+.facebook:hover{
+    color:#ff8800c0 ;
+}
+.youtube:hover{
+    color:#ff8800c0 ;
+}
+.twitter:hover{
+    color:#ff8800c0 ;
+}
+.linked:hover{
+    color:#ff8800c0 ;
+}
+.hline:hover{
+    color:#ff8800c0 ; 
+}
+.tel:hover{
+    color:#ff8800c0 ; 
+}
+.fax:hover{
+    color:#ff8800c0 ; 
+}
