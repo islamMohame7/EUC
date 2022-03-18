@@ -1,4 +1,5 @@
 *{
+    text-transform: capitalize !important;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -49,7 +50,8 @@ body{
     position: absolute;
     border: solid;
     border-color: rgb(23, 43,82);
-    border-radius: 21%;
+    border-radius: 5px 31px;
+
     background-color: rgb(23, 43,82);
     opacity: 95%;
     width: 84%;
@@ -155,19 +157,23 @@ body{
     left: 8%;
     top: 76%;
 }
-#submit{
+.btn{
     position: absolute;
     text-decoration: none;
-    height: 7%;
-    width: 22%;
-    left: 39%;
-    top: 89%;
-    color: rgb(24, 26,80);
-    font-size: x-large;
-    border: solid;
-    border-radius: 5%;
-    border: rgb(24, 26,80);
+    border: none;
+    padding: 8px 40px;
+    font-size: 25px;
     background-color: white;
+    color: rgb(23, 43,82);
+    border-radius: 5px;
+    box-shadow: 7px 6px 28px 1px rgb(0 0 0 / 24%);
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s all;
+    top: 89%;
+    left: 37%;
+    width: 24%;
+    text-align: center;
 }
 .footer{
     position: absolute;
@@ -276,4 +282,7 @@ body{
 #submit:hover{
     color: white;
     background-color:#ff8800c0 ;
+}
+input {
+    padding: 20px;
 }

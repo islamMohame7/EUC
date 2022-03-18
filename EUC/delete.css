@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;
+}
+body {
+    background-color: #99cef7;
+}
+a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.navlist{
+    width: 100%;
+    padding: 15px 15vw;
+    position: fixed;
+    background-color:rgba(18, 18,39, 0.9);
+    z-index: 10;
+
+}
+.navlist ul {
+    display: flex;
+    list-style: none;
+}
+.navlist ul li:first-child{
+    flex: 1;
+}
+.navlist h2{
+    font-family: serif;
+    color: #fff;
+}
+.navlist ul a{
+    margin-left: 20px;
+    font-size: 17px;
+}
+.navlist ul a:hover{
+    color: #f80;
+}
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 38%;
+    height: 65%;
+    background-color: white;
+    /* height: 200px; */
+    display: grid;
+    align-content: space-evenly;
+    grid-template-columns: auto ;
+    grid-template-rows:repeat(3,18%);
+    justify-content: center;
+    border-radius: 5px 31px;
+
+}
+
+.mb-3 {
+    display: grid;
+    /* grid-template-columns: 286px; */
+    grid-template-columns: repeat(auto-fill, minmax(auto, 286px));
+    grid-template-rows: 23px;
+    grid-gap: 17px;
+}
+input {
+    height: 40px !important;
+    padding: 20px;
+}
+button {
+    height: 40px !important;
+    cursor: grab;
+    background: rgb(7, 97, 222);
+    color: white;
+    
+}
+button:hover {
+    background-color: rgba(18, 18,39, 0.9);
+    color: white;
+}

@@ -5,7 +5,7 @@
     height: auto;
 }
 body {
-    background-color: aliceblue;
+    background-color: #99cef7;
 }
 a{
     color:#fff;
@@ -65,6 +65,7 @@ form {
 }
 input {
     height: 40px !important;
+    padding: 20px;
 }
 button {
     height: 40px !important;

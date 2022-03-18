@@ -10,6 +10,11 @@
     <link href="/fontawesome-free-6.0.0-web/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="signUp.css">
     
+    <script type="text/javascript">
+      function showMessage() {
+          alert("thanks for joining us , we will contact you soon.");
+      }
+  </script>
 </head>
 <body>
     <nav class="navlist">
@@ -17,8 +22,8 @@
             <li><h2><a href="Euc.html" style="font-size: larger;">EUC</a></h2></li>
             <li><a href="Euc.html">HOME</a></li>
             <li><a href="about.html">ABOUT</a></li>
-            <li><a href="">COURSE</a></li>
-            <li><a href="">FACULTY</a></li>
+            <li><a href="courses.html">COURSE</a></li>
+            <li><a href="profile.html" >PROFILE</a></li>
             <li><a href="profile.html" target="_blank">PROFILE</a></li>
             <li><a href="contact.html">CONTACT US</a></li>
         </ul>
@@ -46,7 +51,7 @@
 
       <div class="name row ">
         <div class="col">
-          <input type="text" id="school"class="  form-control" placeholder="your high school" aria-label="high school" required>
+          <input type="text" id="school"class="  form-control" placeholder="your high schools" aria-label="high school" required>
         </div>
         
         <div class="col">
@@ -72,10 +77,12 @@
               <input type="text" id="skills"class=" form-control" placeholder="your skills" aria-label="skills"  required>
             </div>
           </div>
-        
-          <a href="profile.html" target="_blank"id="submit" style="display: flex;
+          <input type="submit" formaction="/profile.html" value="submit" class="btn">
+          <!-- <a href="profile.html" target="_blank"><button class="btn">submit</button></a> -->
+       <!-- <a href="profile.html" target="_blank"><input class="btn" type="submit" value="submit"></a>  -->
+          <!-- <a href="profile.html" target="_blank"id="submit" style="display: flex;
                                                                    align-items: center;
-                                                                   justify-content: center;">submit</a>
+                                                                   justify-content: center;">submit</a> -->
 
 </form>
 </div>

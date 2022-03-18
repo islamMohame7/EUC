@@ -7,6 +7,7 @@ body {
     box-sizing: border-box;
     font-family: "Century Gothic" , sans-serif;
     height: auto;
+    text-transform: capitalize !important;
 }
 
 .form-control:focus {
