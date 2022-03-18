@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Century Gothic" , sans-serif; */
+    height: 9%;
+}
+a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.navlist{
+    width: 100%;
+    padding: 15px 15vw;
+    position: fixed;
+    background-color:rgba(18, 18,39, 0.9);
+    z-index: 10;
+
+}
+.navlist ul {
+    display: flex;
+    list-style: none;
+}
+.navlist ul li:first-child{
+    flex: 1;
+}
+.navlist h2{
+    font-family: serif;
+    color: #fff;
+}
+.navlist ul a{
+    margin-left: 20px;
+    font-size: 17px;
+}
+.navlist ul a:hover{
+    color: #f80;
+}
+body{
+    font-size: 14px;
+    font-family: serif;
+}
+#join{
+    position: absolute;
+    width: 100%;
+    height: 43%;
+}
+.all{
+    position: absolute;
+    border: solid;
+    border-color: rgb(23, 43,82);
+    border-radius: 21%;
+    background-color: rgb(23, 43,82);
+    opacity: 95%;
+    width: 84%;
+    height: 73%;
+    right: 8%;
+    top: 44%;
+    color: seashell;
+
+}
+
+
+#jus{
+    position: absolute;
+    right: 44%;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}
+.fo{
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    width: 85%;
+    height: 80%;
+}
+#fname{
+    position: absolute;
+    height: 11%;
+    width: 40%;
+    left: 8%;
+    top: 20%;
+}
+#lname{
+    position: absolute;
+    height: 11%;
+    width: 40%;
+    right: 9%;
+    top: 20%;
+}
+#mail{
+    position: absolute;
+    height: 11%;
+    width: 40%;
+    left: 8%;
+    top: 34%;
+
+}
+#pass{
+    position: absolute;
+    height: 11%;
+    width: 40%;
+    right: 9%;
+    top: 34%;
+}
+#school{
+    position: absolute;
+    height: 11%;
+    width: 40%;
+    left: 8%;
+    top: 48%;
+}
+#grade{
+    position: absolute;
+    height: 11%;
+    width: 40%;
+    right: 9%;
+    top: 62%;
+
+}
+#year{
+    position: absolute;
+    height: 11%;
+    width: 40%;
+    right: 9%;
+    top: 48%;
+
+
+}
+#sel{
+    position: absolute;
+    height: 11%;
+    width: 40%;
+    left: 8%;
+    top: 62%;
+
+}
+#skills{
+    position: absolute;
+    height: 11%;
+    width: 40%;
+    right: 9%;
+    top: 76%;
+
+}
+#birth{
+    position: absolute;
+    height: 11%;
+    width: 40%;
+    left: 8%;
+    top: 76%;
+}
+#submit{
+    position: absolute;
+    text-decoration: none;
+    height: 7%;
+    width: 22%;
+    left: 39%;
+    top: 89%;
+    color: rgb(24, 26,80);
+    font-size: x-large;
+    border: solid;
+    border-radius: 5%;
+    border: rgb(24, 26,80);
+    background-color: white;
+}
+.footer{
+    position: absolute;
+    background-color: rgb(24, 26,80);
+    opacity: 95%;
+    width: 100%;
+    height: 20%;
+    bottom: -38%;
+    
+}
+.linked{
+    height: 35px;
+    color: seashell;
+    width: 37px;
+    position: absolute;
+    padding: 9px;
+    margin: 40px;
+    border: rgba(18, 18,39, 0.9);
+    border: solid;
+    border-radius: 50%;
+    cursor: pointer;
+    top: 39%;
+    left: 82%;}
+
+.twitter{
+    color: seashell;
+    height: 35px;
+    width: 37px;
+    position: absolute;
+    padding: 9px;
+    margin: 40px;
+    border: rgba(18, 18,39, 0.9);
+    border: solid;
+    border-radius: 50%;
+    cursor: pointer;
+    top: -4%;
+    left: 88%;
+}
+#hotline{
+    position: absolute;
+    left: 48%;
+    color: seashell;
+    top: 24%
+}
+
+
+.youtube{
+    color: seashell;
+    height: 35px;
+    width: 37px;
+    position: absolute;
+    padding: 9px;
+    margin: 40px;
+    border: rgba(18, 18,39, 0.9);
+    border: solid;
+    border-radius: 50%;
+    cursor: pointer;
+    top: -4%;
+    left: 82%;
+}
+.address{
+    color: seashell;
+}
+.facebook{
+    color: seashell;
+    height: 35px;
+    width: 37px;
+    position: absolute;
+    padding: 9px;
+    margin: 40px;
+    border: rgba(18, 18,39, 0.9);
+    border: solid;
+    border-radius: 50%;
+    cursor: pointer;
+    top: 38%;
+    left: 88%;
+}
+#egypt{
+    color:seashell ;
+    position: relative;
+    margin: 2%;
+    top:3%;
+    left: 10%;
+}
+.facebook:hover{
+    color:#ff8800c0 ;
+}
+.youtube:hover{
+    color:#ff8800c0 ;
+}
+.twitter:hover{
+    color:#ff8800c0 ;
+}
+.linked:hover{
+    color:#ff8800c0 ;
+}
+.hline:hover{
+    color:#ff8800c0 ; 
+}
+.tell:hover{
+    color:#ff8800c0 ; 
+}
+.fax:hover{
+    color:#ff8800c0 ; 
+}
+#submit:hover{
+    color: white;
+    background-color:#ff8800c0 ;
+}

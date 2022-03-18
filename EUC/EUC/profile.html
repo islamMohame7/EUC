@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+  
+    <link href="/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+     crossorigin="anonymous">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js">
+    <title> profile</title>
+</head>
+<body>
+
+  <div class="container rounded bg-white mt-5 mb-5" id="parent">
+    <div class="row">
+        <div class="col-md-3 border-right">
+            <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" src="https://techcommunity.microsoft.com/t5/image/serverpage/image-id/288121iA3DD0ABCB9D71E58/image-size/small?v=v2&px=200"><span class="font-weight-bold">islam</span><span class="text-black-50">izo147@gmail.com</span><span> </span></div>
+        </div>
+        <div class="col-md-5 border-right">
+            <div class="p-3 py-5">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4 class="text-right">Profile Settings</h4>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-6"><label class="labels">Name</label><input type="text" class="form-control" placeholder="" value="islam"></div>
+                    <div class="col-md-6"><label class="labels">Surname</label><input type="text" class="form-control" value="mohamed" placeholder=""></div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-12"><label class="labels">PhoneNumber</label><input type="text" class="form-control" placeholder="" value="0125258888"></div>
+                    <div class="col-md-12"><label class="labels">birthdate</label><input type="date" class="form-control"id="myDate" \ value="2002-01-20"></div>
+                    <div class="col-md-12"><label class="labels">Email ID</label><input type="text" class="form-control" placeholder="" value="izo147@gmail.com"></div>
+                    <div class="col-md-12"><label class="labels">High school name</label><input type="text" class="form-control" placeholder="" value="EL FADL"></div>
+                    <div class="col-md-12"><label class="labels">grade</label><input type="number" class="form-control" placeholder="" value="3.7"></div>
+                    <div class="col-md-12"><label class="labels"> graduation year</label><input type="text" class="form-control" placeholder="" value="2024"></div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-6"><label class="labels">Country</label><input type="text" class="form-control" placeholder="" value="Egypt"></div>
+                    <div class="col-md-6" id="islam"><label class="labels" style="  grid-column:span 2 ;">gender</label>
+                      <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"  style="height: 20px; width: 20px;" checked>
+                          <label class="form-check-label" for="inlineRadio1" style="font-size: 20px;" selected>male</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" style="height: 20px; width: 20px;" aria-selected="true">
+                          <label class="form-check-label" for="inlineRadio2"  style="font-size: 22px;">female</label>
+                    </div>
+                    </div>
+                </div>
+                <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button">Save Profile</button></div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="p-3 py-5">
+                <div class="d-flex justify-content-between align-items-center experience"><span style="font-size: 20px;">list of enrolled courses</span><span class="border px-3 p-1 add-experience"><i class="fa fa-plus"></i>&nbsp;<a href="courses.html" target="_blank" >Edit</a></span></div><br>
+                <div class="col-md-12" id="islam-0">
+                  <label class="labels">courses</label>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>press to show</option>
+                    <option value="1" disabled>math</option>
+                    <option value="2" disabled>physics</option>
+                    <option value="3" disabled>chemistry</option>
+                    <option value="4" disabled>mechanics</option>
+                    <option value="4" disabled>biology</option>
+                  </select>
+                </div> <br>
+                <div class="col-md-12"><label class="labels">Additional Details</label><input type="text" class="form-control" placeholder="additional details" value=""></div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+     <script src="bootstrap.bundle.min.js"
+     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+     crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>
